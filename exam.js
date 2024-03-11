@@ -80,7 +80,9 @@ class Notification {
     this.sender = sender;
     this.reciplent = reciplent;
   }
-  send() {}
+  send() {
+
+  }
 }
 
 class Room {
@@ -88,5 +90,32 @@ class Room {
     style = "";
     status = "";
     roomPrice = 0;
+    constructor(roomNumber, style, status, roomPrice) {
+        this.roomNumber = roomNumber;
+        this.style = status;
+        this.status = status;
+        this.roomPrice = roomPrice;
+    }
+    isRoomAvaliable() {
+
+    }
+    createRoom() {
+
+    }
+}
+
+class Hotel {
+    name = "";
+    location = "";
+    constructor(name, location) {
+        this.name = name;
+        this.location = location;
+    }
+    getRoom() {
+
+    }
+    addnewRooms() {
+        
+    }
 }
 
